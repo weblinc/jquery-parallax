@@ -1,17 +1,17 @@
 // jquery.parallax.js
 // @weblinc, @jsantell, 2012
 
-;(function($) {
+;(function( $ ) {
     $.fn.parallax = function ( userSettings ) {
         var options = $.extend( {}, $.fn.parallax.defaults, userSettings );
 
-        return this.each(function() {
+        return this.each(function () {
             var $this   = $(this),
                 isX     = options.axis === 'x',
                 origPos = ( $this.css( 'background-position' ) || '' ).split(' '),
                 origX   = $this.css( 'background-position-x' ) || origPos[ 0 ],
                 origY   = $this.css( 'background-position-y' ) || origPos[ 1 ],
-                dist    = function() {
+                dist    = function () {
                     return -$( window )[ isX ? 'scrollLeft' : 'scrollTop' ]();
                 };
             $this
@@ -22,7 +22,7 @@
                 $this[ visible ? 'addClass' : 'removeClass' ]( 'inview' );
             });
 
-            $( window ).bind( 'scroll', function() {
+            $( window ).bind( 'scroll', function () {
                 if ( !$this.hasClass( 'inview' )) { return; }
                 var xPos = isX ? ( dist() * options.speed ) + 'px' : origX,
                     yPos = isX ? origY : ( dist() * options.speed ) + 'px';
@@ -38,4 +38,4 @@
         axis: 'x'
     };
 
-})(jQuery);
+})( jQuery );
