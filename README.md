@@ -20,6 +20,7 @@ Turns parallax on two layers on the Y-axis at different speeds.
 
 TODO
 ---
+* Set up working demo
 * Implement start/stop positions for parallax to trigger on and off. 
 
 Contributing
