@@ -1,10 +1,10 @@
 // jquery.parallax.js
 // @weblinc, @jsantell, 2012
-// TODO: incorporate start/stop
+
 ;(function($) {
     $.fn.parallax = function ( userSettings ) {
         var options = $.extend( {}, $.fn.parallax.defaults, userSettings );
-        
+
         return this.each(function() {
             var $this   = $(this),
                 isX     = options.axis === 'x',
