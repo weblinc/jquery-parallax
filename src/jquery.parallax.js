@@ -1,5 +1,5 @@
 // jquery.parallax.js
-// @weblinc, @jsantell, 2012
+// @weblinc, @jsantell, (c) 2012
 
 ;(function( $ ) {
     $.fn.parallax = function ( userSettings ) {

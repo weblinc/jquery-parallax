@@ -25,4 +25,4 @@ TODO
 
 Contributing
 ---
-This project uses [smoosh](https://github.com/fat/smoosh).
+This project uses [smoosh](https://github.com/fat/smoosh) for compiling, linting.
