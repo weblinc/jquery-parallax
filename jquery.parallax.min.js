@@ -1,0 +1,4 @@
+// jquery.parallax.js
+// @weblinc, @jsantell, (c) 2012
+
+(function(a){a.fn.parallax=function(b){var c=a.extend({},a.fn.parallax.defaults,b);return this.each(function(){var b=a(this),d=c.axis==="x",e=(b.css("background-position")||"").split(" "),f=b.css("background-position-x")||e[0],g=b.css("background-position-y")||e[1],h=function(){return-a(window)[d?"scrollLeft":"scrollTop"]()};b.css("background-attachment","fixed").addClass("inview"),b.bind("inview",function(a,c){b[c?"addClass":"removeClass"]("inview")}),a(window).bind("scroll",function(){if(!b.hasClass("inview"))return;var a=d?h()*c.speed+"px":f,e=d?g:h()*c.speed+"px";b.css("background-position",a+" "+e)})})},a.fn.parallax.defaults={start:0,stop:a(document).height(),speed:1,axis:"x"}})(jQuery)
