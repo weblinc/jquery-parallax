@@ -3,7 +3,7 @@ jquery.parallax.js
 
 A jQuery parallax plugin 
 
-[View demo](http://weblinc.github.com/jquery.parallax.js)
+[View demo](http://weblinc.github.com/jquery-parallax)
 
 Tested in IE6-9, Chrome, Firefox 3.6, 12, Safari
 
