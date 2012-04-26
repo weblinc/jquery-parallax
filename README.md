@@ -3,6 +3,9 @@ jquery.parallax.js
 
 A jQuery parallax plugin 
 
+[View demo](http://weblinc.github.com/jquery.parallax.js)
+
+Tested in IE6-9, Chrome, Firefox 3.6, 12, Safari
 
 Options
 ---
@@ -21,6 +24,7 @@ Turns parallax on two layers on the Y-axis at different speeds.
 TODO
 ---
 * Implement start/stop positions for parallax to trigger on and off. 
+* Fix styling in demo for IE6 
 
 Contributing
 ---
