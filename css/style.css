@@ -1,0 +1,36 @@
+header,footer,nav,section,article,aside{display:block}
+html{margin:0;padding:0 0 10px;color:#aaa}
+body{min-width:320px;margin:0;padding:0;background:#222;color:#444;font:normal 16px/normal "Univers LT W01 45 Light",Tahoma,sans-serif}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal}
+h1{font-size:32px}
+h2{font-size:20px}
+h3,h4{font-size:18px}
+a{color:#3c8fbe;text-decoration:none}
+a:hover,a:focus{text-decoration:underline}
+a img{border:0}
+dl,ul,ol,dt,dd{margin:0;padding:0;vertical-align:top}
+dl dt a,dl dd h2 a{color:#444;text-decoration:none}
+li{margin:0 0 0 1.6em;padding:0}
+form{margin:1em 0}
+fieldset{margin:0;border:0;padding:0}
+label{display:block;color:#777;font-size:14px}
+input,textarea,select{width:230px;border:1px solid #dfdfdf;border-radius:8px;padding:5px;font:normal 14px/normal Tahoma,sans-serif;box-shadow:inset 5px 5px 5px #f8f8f8,inset -5px -5px 5px #f8f8f8}
+textarea{overflow:auto;width:370px;height:100px}
+button{margin:0;border:0;border-radius:8px;padding:5px 10px;background-color:#c96363;color:#fff;font:normal 14px/normal "Univers LT W01 45 Light",Tahoma,sans-serif}
+.wl-cf,.ui-helper-clearfix,.clearfix{display:block;zoom:1}
+.wl-cf:after,.ui-helper-clearfix:after,.clearfix:after{content:".";display:block;height:.1px;clear:both;font-size:0;visibility:hidden}
+.wl-wrapper{margin:0 auto;padding:0 30px;*width:960px;max-width:960px}
+.wl-banner{margin-bottom:30px;padding:30px 0;color:#999;border-top: #eeeeee solid 1px;border-bottom: #eeeeee solid 1px;background: #f5f5f5;background: -moz-linear-gradient(top,  #f5f5f5 0%, #f5f5f5 86%, #eeeeee 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(86%,#f5f5f5), color-stop(100%,#eeeeee));background: -webkit-linear-gradient(top,  #f5f5f5 0%,#f5f5f5 86%,#eeeeee 100%);background: -o-linear-gradient(top,  #f5f5f5 0%,#f5f5f5 86%,#eeeeee 100%);background: -ms-linear-gradient(top,  #f5f5f5 0%,#f5f5f5 86%,#eeeeee 100%);background: linear-gradient(to bottom,  #f5f5f5 0%,#f5f5f5 86%,#eeeeee 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 );}
+.wl-banner .title{color:#666}
+.wl-banner .note{color:#666;font-size:12px}
+.wl-banner .actions{margin:0;padding:0;list-style:none}
+.wl-banner .actions .action{margin:4px 0;float:left}
+.wl-content{padding-bottom:30px;background:#fff}
+.wl-section{margin-bottom:30px;border-bottom:#e0e0e0 solid 1px}
+.wl-footer{padding:4px 0}
+.wl-footer .logo{display:block;margin:10px;width:142px;height:21px;float:right;background:transparent url(http://images06.weblinc.com/assets/sprite.png) 0 0 no-repeat}
+.wl-footer .nav{margin:0;padding:0;float:right;list-style:none}
+.wl-footer .contact{float:left;padding:10px 0}
+.wl-footer .contact .twitter{background-position:-235px -116px}
+.wl-ribbon{position: absolute; top: 0; right: 0; margin: 0;}
+.wl-ribbon img {border: 0;}
