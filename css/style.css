@@ -34,3 +34,31 @@ button{margin:0;border:0;border-radius:8px;padding:5px 10px;background-color:#c9
 .wl-footer .contact .twitter{background-position:-235px -116px}
 .wl-ribbon{position: absolute; top: 0; right: 0; margin: 0;}
 .wl-ribbon img {border: 0;}
+
+
+/*demo-specific*/
+.wl-ribbon {
+	position: fixed;
+	z-index: 1200;
+}
+.wl-banner,
+.wl-footer {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.wl-banner {
+	top: 0;
+	padding: 18px 0;
+}
+.wl-footer {
+	bottom: 0;
+	background-color: #222;
+}
+.wl-wrapper {
+	margin: 0;
+	max-width: none;
+}
+
+
